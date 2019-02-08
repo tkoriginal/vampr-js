@@ -37,6 +37,10 @@ describe("Vampire", function() {
       expect(offspring2.numberOfVampiresFromOriginal).to.equal(2);
     });
 
+    it("offspring 3 should be 4 from original", () => {
+      expect(offspring3.numberOfVampiresFromOriginal).to.equal(3);
+    });
+
     it("offspring 4 should be 4 from original", () => {
       expect(offspring4.numberOfVampiresFromOriginal).to.equal(4);
     });
